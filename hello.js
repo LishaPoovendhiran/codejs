@@ -1,9 +1,14 @@
-// console.log("Hello World!")
-arr1 = [10 , 65 , 85 , 35 , 45]
-console.log(arr1)
-var a = arr1.pop()
-console.log(a) 
-arr1.push(23)
-console.log(arr1)
-arr1.shift()
-console.log(arr1)
+var studentscore = 67
+if(studentscore>=90){
+    console.log("Grade A")
+}
+else if(studentscore >=70 && studentscore<=89){
+    console.log("Grade B")
+
+}
+else if(studentscore>=50 && studentscore<=69){
+    console.log("Grade C")
+}
+else{
+    console.log("Student Failed!")
+}
